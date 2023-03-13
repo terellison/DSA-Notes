@@ -6,7 +6,7 @@ Measures the <u>actual</u> time an algorithm took to execute. Since this require
 
 ## Theoretical Analysis
 
-In theoretical analysis, an algorithms execution time and space required to execute are defined as a function of the algorithms input.
+In theoretical analysis, an algorithms execution time and space required to execute are defined as a function of the algorithm's input.
 
 <br/>
 
@@ -18,11 +18,12 @@ In theoretical analysis, an algorithms execution time and space required to exec
 
 <br/>
 
-| Name      | Complexity | Description          |
-|-----------|------------|----------------------|
-| Quadratic | O(N^2)     | Time grows as a function of the square of input (e.g. N = 10, Time = 100s)|
-| Linear    | O(N)       | Time is correspondant to the amount of input (e.g. N = 10, Time = 10s)|
-| Constant  | O(1)       | Time is constant irrespective of the amount of input (e.g. N = 10, Time = 1s; N = 1000, T ~1s)|
+| Name      | Complexity | Description          | Quality |
+|-----------|------------|----------------------|---------|
+| Quadratic | O(N^2)     | Time grows as a function of the square of input (e.g. N = 10, Time = 100s)| Horrible |
+| Linear    | O(N)       | Time is proportional to the amount of input (e.g. N = 10, Time = 10s)| Fair |
+| Logartihmic | O(log N) | Time gorws insignificantly as input grows (e.g. N = 10 T = 10s; N = 10,000 T = 1.1s); Search space is halved in each iteration | Good |
+| Constant  | O(1)       | Time is constant irrespective of the amount of input (e.g. N = 10, Time = 1s; N = 1000, T ~1s)| Excellent |
 
 # Real-World Examples
 
@@ -36,7 +37,7 @@ In theoretical analysis, an algorithms execution time and space required to exec
 
 <br/>
 
-> Note: O(1) operations depend on <u>things that are always known to be true</u>. If an array is sorted, the max value will always be the end, for example. No computation is need for these sort of operations. This is why their runtime is constant
+> Note: O(1) operations depend on <u>things that are always known to be true</u>. For example, if an array is sorted, we know that the max value will always be the end. No computation is need for these sort of operations. This is why their runtime is constant
 
 <br/>
 
