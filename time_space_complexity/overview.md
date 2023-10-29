@@ -22,7 +22,7 @@ In theoretical analysis, an algorithms execution time and space required to exec
 |-----------|------------|----------------------|---------|
 | Quadratic | O(N^2)     | Time grows as a function of the square of input (e.g. N = 10, Time = 100s)| Horrible |
 | Linear    | O(N)       | Time is proportional to the amount of input (e.g. N = 10, Time = 10s)| Fair |
-| Logarithmic | O(log N) | Time grows insignificantly as input grows (e.g. N = 10 T = 10s; N = 10,000 T = 1.1s); Search space is halved in each iteration | Good |
+| Logarithmic | O(log N) | Time grows insignificantly as input grows (e.g. N = 10 T = 10s; N = 10,000 T = 10.1s); Search space is halved in each iteration | Good |
 | Constant  | O(1)       | Time is constant irrespective of the amount of input (e.g. N = 10, Time = 1s; N = 1000, T ~1s)| Excellent |
 
 # Real-World Examples
